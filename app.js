@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+var port = process.env.PORT || process.env.PORT || 1337;
 var app = express();
 process.title = 'nodeWeb';
 
